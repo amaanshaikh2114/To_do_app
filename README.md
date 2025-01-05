@@ -50,9 +50,9 @@ A new simple Flutter project that can add tasks by taking them from users along 
 
 ## Screenshots
 <p align="center">
-  <img src="screenshots/home_page.png" alt="Home page" width="400"/>
-  <img src="screenshots/new_task_page.png" alt="Adding new task" width="400"/>
-  <img src="screenshots/high_priority_ordering.png" alt="High priority sorting" width="400"/>
+  <img src="screenshots/home_page.png" alt="Home page" width="300"/>
+  <img src="screenshots/new_task_page.png" alt="Adding new task" width="300"/>
+  <img src="screenshots/high_priority_ordering.png" alt="High priority sorting" width="300"/>
 </p>
 
 ## Contributing
