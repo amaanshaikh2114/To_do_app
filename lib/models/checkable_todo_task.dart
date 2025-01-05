@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 enum TaskPriority { urgent, normal, low }
+// indexes urgent = 0, normal = 1, low = 2
+// comparison used to sort items priority wise
 
 const priorityIcons = {
   TaskPriority.low: Icons.low_priority,

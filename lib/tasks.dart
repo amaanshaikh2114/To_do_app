@@ -15,15 +15,23 @@ class Tasks extends StatefulWidget {
 class _TasksState extends State<Tasks> {
   final List<CheckableTodoTask> _listedCheckableTodos = [
     const CheckableTodoTask(
-      title: 'Flutter Course',
+      title: "Use '+' button to add tasks",
+      priority: TaskPriority.low,
+    ),
+    const CheckableTodoTask(
+      title: 'Swipe left/right to delete task',
       priority: TaskPriority.normal,
     ),
     const CheckableTodoTask(
-      title: 'Learn Web',
+      title: 'A normal priority task',
+      priority: TaskPriority.normal,
+    ),
+    const CheckableTodoTask(
+      title: 'An urgent priority task',
       priority: TaskPriority.urgent,
     ),
     const CheckableTodoTask(
-      title: 'Check AI/ML',
+      title: 'A low priority task',
       priority: TaskPriority.low,
     ),
   ];
@@ -115,19 +123,6 @@ class _TasksState extends State<Tasks> {
         children: [
           Expanded(
             child: mainContent,
-            // child: Padding(
-            //   padding: const EdgeInsets.all(8.0),
-            //   child: ListView(
-            //     children: [
-            //       for (final task in _listedCheckableTodos)
-            //         CheckableTodoTask(
-            //           key: ValueKey(task.title), //ObjectKey(todo)
-            //           title: task.title,
-            //           priority: task.priority,
-            //         ),
-            //     ],
-            //   ),
-            // ),
           ),
         ],
       ),

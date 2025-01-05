@@ -16,24 +16,19 @@ class TodoTaskItem extends StatefulWidget {
 }
 
 class _TodoTaskItemState extends State<TodoTaskItem> {
-  var _done = false;
-
-  void _setDone(bool? isChecked) {
-    setState(() {
-      _done = isChecked ?? false;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Card(
+      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+      child: Container(
+        decoration: const BoxDecoration(
+            color: Color.fromARGB(255, 212, 199, 231),
+            borderRadius: BorderRadius.all(Radius.circular(10))),
+        height: 54,
         child: Padding(
           padding: const EdgeInsets.all(8),
           child: Row(
             children: [
-              Checkbox(value: _done, onChanged: _setDone),
               const SizedBox(
                 width: 8,
               ),

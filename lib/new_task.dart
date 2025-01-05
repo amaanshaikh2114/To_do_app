@@ -1,4 +1,3 @@
-// import 'dart:async';
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -88,9 +87,6 @@ class _NewTaskState extends State<NewTask> {
           padding: EdgeInsets.fromLTRB(16, 16, 16, keyboardSpace + 16),
           child: Column(
             children: [
-              // const SizedBox(
-              //   height: 5,
-              // ),
               TextField(
                 controller: _titleController,
                 maxLength: 50,

@@ -68,7 +68,6 @@ class _KeysState extends State<Keys> {
         Expanded(
           child: Column(
             children: [
-              // for (final todo in _orderedTodos) TodoItem(todo.text, todo.priority),
               for (final todo in _orderedTodos)
                 CheckableTodoItem(
                   key: ValueKey(todo.text), //ObjectKey(todo)
