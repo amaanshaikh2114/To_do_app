@@ -49,10 +49,21 @@ A new simple Flutter project that can add tasks by taking them from users along 
     Choose the option from the drop-down menu on the top of the home page to sort the tasks accordingly.
 
 ## Screenshots
-<p align="center">
-  <img src="screenshots/home_page.png" alt="Home page" width="300"/>
-  <img src="screenshots/new_task_page.png" alt="Adding new task" width="300"/>
-  <img src="screenshots/high_priority_ordering.png" alt="High priority sorting" width="300"/>
+<p align="center" style="margin: 20px;">
+    <figure>
+    <figcaption align="center">Home page</figcaption>
+    <img src="screenshots/home_page.png" alt="Home page" width="300" style="padding-top: 10px;"/>
+  </figure>
+  
+  <figure>
+    <figcaption align="center">Adding new task</figcaption>
+    <img src="screenshots/new_task_page.png" alt="Adding new task" width="300" style="padding-top: 10px;"/>
+  </figure>
+
+  <figure>
+    <figcaption align="center">High priority sorting</figcaption>
+    <img src="screenshots/high_priority_ordering.png" alt="High priority sorting" width="300" style="padding-top: 10px;"/>
+  </figure>
 </p>
 
 ## Contributing
